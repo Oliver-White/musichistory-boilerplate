@@ -1,13 +1,66 @@
-<!doctype html>
+<!DOCTYPE html>
 
-<html lang="en">
+<html>
 <head>
   <meta charset="utf-8">
   <title>Music History</title>
+  
+
 </head>
 
 <body>
+    <div>
+        <div>
+            <header>
+                <ul>
+                    <li><a href="#" id="Home">Music!</a></li>
+                </ul>
+            </header>
+            <section>
+                <div>
+               
+                    <fieldset>
+                        <legend>Length:</legend>
+                            <input type="range" name="song_length" min="25" max="225" step="5" value="150" placeholder="">
+                    </fieldset>
+                    <fieldset>
+                        <label>Artist:</label>
+                        <select name="artist" class="">
+                        <option value="value">Artists</option>
+                        <option value=""></option>
+                        </select>
+                    </fieldset>
+                    <fieldset>
+                        <label>Album:</label>
+                        <select name="album" class="">
+                            <option value="value">Albums</option>
+                            <option value=""></option>
+                        </select>
+                    </fieldset>
+                   
+                    <fieldset>
+                        <button type="submit" class="">Filter</button>
+                    </fieldset>
+                </div>
+                <div>
 
-
+                    <div>
+                    <button type="select" id="" class="">More</button>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div>
+                    <label>Song</label>
+                    <input type="text" name="song" id="song" value="" placeholder="">
+                    <label>Artist</label>
+                    <input type="text" name="artist" id="artist" value="" placeholder="">
+                    <label>Album</label>
+                    <input type="text" name="album" id="album" value="" placeholder="">
+                    <button type="submit">Add</button>
+                </div>
+            </section>
+        </div>    
+    </div>    
 </body>
 </html>
