@@ -1,0 +1,36 @@
+{
+  "songs": [
+    {
+      "title": "Moonlight Sonata",
+      "artist": "Beethoven",
+    },
+    {
+      "title": "Clair de Lune",
+      "artist": "Debussy",
+    },
+    {
+      "title": "March Funèbre",
+      "artist": "Chopin",
+    },
+    {
+      "title": "Arabeske",
+      "artist": "Schumann",
+    },
+    {
+      "title": "Für Elise", 
+      "artist": "Beethoven",
+    },
+    {
+      "title": "Rondo Alla Turca",
+      "artist": "Mozart",
+    },
+    {
+      "title": "Hungarian Rhapsody No. ...",
+      "artist": "Liszt",
+    },
+    {
+      "title": "Flight of the Bumblebee",
+      "artist": "Rimsky-Korsakov",
+    }
+  ]
+}
