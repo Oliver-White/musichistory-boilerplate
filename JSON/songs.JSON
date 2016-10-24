@@ -3,34 +3,42 @@
     {
       "title": "Moonlight Sonata",
       "artist": "Beethoven",
+      "albumn": "Classical"
     },
     {
       "title": "Clair de Lune",
       "artist": "Debussy",
+      "albumn": "Classical"
     },
     {
       "title": "March Funèbre",
       "artist": "Chopin",
+      "albumn": "Classical"
     },
     {
       "title": "Arabeske",
       "artist": "Schumann",
+      "albumn": "Classical"
     },
     {
       "title": "Für Elise", 
       "artist": "Beethoven",
+      "albumn": "Classical"
     },
     {
       "title": "Rondo Alla Turca",
       "artist": "Mozart",
+      "albumn": "Classical"
     },
     {
       "title": "Hungarian Rhapsody No. ...",
       "artist": "Liszt",
+      "albumn": "Classical"
     },
     {
       "title": "Flight of the Bumblebee",
       "artist": "Rimsky-Korsakov",
+      "albumn": "Classical"
     }
   ]
 }
