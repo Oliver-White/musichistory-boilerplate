@@ -1,72 +1,27 @@
 <!DOCTYPE html>
-
 <html>
 <head>
-  <meta charset="utf-8">
-  <title>Music History</title>
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-
+  <title></title>
+  <link rel="stylesheet" href="node_modules/materialize-css/dist/css/materialize.min.css">
+  <link rel="stylesheet" href="/css/main.css">
 </head>
-
 <body>
-    <div>
-        <div>
-            <header>
-                <ul>
-                    <li><a href="#" id="Home">Music!</a></li>
-                </ul>
-            </header>
-            <section>
-                <div>
-               
-                    <fieldset>
-                        <legend>Length:</legend>
-                            <input type="range" name="song_length" min="25" max="225" step="5" value="150" placeholder="">
-                    </fieldset>
-                    <fieldset>
-                        <label>Artist:</label>
-                        <select name="artist" id="artist">
-                        <option value="value">Artists</option>
-                        <option value=""></option>
-                        </select>
-                    </fieldset>
-                    <fieldset>
-                        <label>Album:</label>
-                        <select name="album" class="albumn">
-                            <option value="value">Albums</option>
-                            <option value=""></option>
-                        </select>
-                    </fieldset>
-                   
-                    <fieldset>
-                        <button type="submit" class="">Filter</button>
-                    </fieldset>
-                </div>
-                <div>
-
-                    <div>
-                    <button type="select" id="" class="">More</button>
-                    </div>
-                </div>
-            </section>
-            <section>
-                <div>
-                    <label>Song</label>
-                    <input type="text" name="song" id="song" value="" placeholder="">
-                    <label>Artist</label>
-                    <input type="text" name="artist" id="artist" value="" placeholder="">
-                    <label>Album</label>
-                    <input type="text" name="album" id="album" value="" placeholder="">
-                    <button type="submit">Add</button>
-                </div>
-            </section>
-            <section>
-                <div id="all_my_songs">
-                    
-                </div>
-            </section>
-        </div>    
-    </div> 
-    <script type="text/javascript" src="script/main.js"></script>   
+  <div class="container">
+    <nav class="row box">
+      <div class="nav-wrapper">
+        <ul id="nav-mobile" class="left nav__links">
+          <li><a href="#" title="">View Music</a></li>
+          <li id="add-song"><a href="#" title="">Add Music</a></li>
+          <li><a class="last" href="#" title="">Profile</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="uiContainer row">
+      <section class="uiContainer--wrapper col s9">
+        <!-- <button id="auth-btn" type="button">Sign in with Google</button> -->
+      </section>
+    </div>
+  </div>
+  <script type='text/javascript' src='dist/app.js'></script>
 </body>
 </html>
